@@ -1,5 +1,11 @@
 import React from 'react'
-
-export default function Card() {
-  return <div>Card</div>;
+import CardIthem from "../CardIthem"
+export default function Card({items}) {
+  return <div className='card'>
+    {
+      items.map((elm,i)=>{
+        return <CardIthem key={i} item={elm} />
+      })
+    }
+  </div>;
 }

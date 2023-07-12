@@ -4,7 +4,7 @@ export const DUMMY_PRODUCTS = [
     name: "Peperoni",
     category: "Pizza",
     price: 3000,
-    photo: "./images/Peperoni.jpg",
+    photo: "images/Peperoni.jpg",
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ export const DUMMY_PRODUCTS = [
     name: "Coca-Cola",
     category: "Drinc",
     price: 500,
-    photo: "./images/Drinc.jpg",
+    photo: "images/Drinc.jpg",
   },
   {
     id: 7,
